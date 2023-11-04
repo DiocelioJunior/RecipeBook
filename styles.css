@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+:root {
+    --background: #201f2f;
+    --txt-1: #ffffff;
+    --txt-2: #44404f;
+    --background-a10: #ecf0f1; 
+  }
+  
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    background-color: var(--background);
+    color: var(--txt-1);
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 25px;
+}
+
+.txt h1{
+    padding: 0 15px;
+}
+
+.filter{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.options {
+    width: 100%;
+    height: 50px;
+    overflow: scroll;
+    display: flex;
+    margin-left: 10px; 
+    flex-direction: row;
+}
+
+.options .list-container {
+    display: inline-block;
+    margin-right: 10px;
+    white-space: nowrap; 
+}
+
+.options .list-item {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.selected {
+    border: 2px solid var(--txt-2); /* Adiciona um sublinhado personalizado */
+    border-radius: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
+}
+
+.recipes{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: center;
+    width: 100%;
+}
+
+.recipe {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 85%;
+    background-color: var(--background-a10);
+}
+
+.recipe h2 {
+    margin-bottom: 10px;
+}
+
+.recipe p {
+    margin-bottom: 5px;
+}
+
+.recipe ul {
+    text-align: left;
+}
+
+.recipe img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+  
