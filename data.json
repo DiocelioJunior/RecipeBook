@@ -2,7 +2,7 @@
   "drinks": [
     {
       "name": "Caipirinha",
-      "image": "https://i.pinimg.com/564x/56/da/cf/56dacf88f5f7b5f61e8e4c6f072cc0e6.jpg",
+      "image": "https://i.pinimg.com/564x/ab/89/2c/ab892ccc69fe0df5d3f03bb7b3bc3f2a.jpg",
       "type": "Cachaça",
       "description": "Uma bebida brasileira refrescante e cítrica.",
       "ingredients": ["Cachaça", "Limão", "Açúcar", "Gelo"],
@@ -10,7 +10,7 @@
     },
     {
       "name": "Mojito",
-      "image": "https://i.pinimg.com/564x/99/92/da/9992da24d095dbf93ffcb2c5fb7a5b89.jpg",
+      "image": "https://i.pinimg.com/564x/8e/bc/9b/8ebc9bfa4716d96659654771b4c31cf4.jpg",
       "type": "Rum",
       "description": "Um coquetel refrescante e aromático de origem cubana.",
       "ingredients": ["Rum", "Hortelã", "Limão", "Água com gás", "Açúcar", "Gelo"],
@@ -18,7 +18,7 @@
     },
     {
       "name": "Martini",
-      "image": "https://i.pinimg.com/564x/7c/bd/4c/7cbd4c83fb68de523656c025fbaa7c85.jpg",
+      "image": "https://i.pinimg.com/564x/89/6a/74/896a745d813b2b6578069e32b6c6f406.jpg",
       "type": "Gin",
       "description": "Um coquetel elegante e clássico para os amantes de gin.",
       "ingredients": ["Gin", "Vermute seco", "Azeitona"],
@@ -26,23 +26,15 @@
     },
     {
       "name": "Piña Colada",
-      "image": "https://i.pinimg.com/564x/9e/08/23/9e08231c1057b5c01a5abecb3b234f3b.jpg",
+      "image": "https://i.pinimg.com/564x/55/df/9c/55df9ca196d1b3ac50849df7fa6ac6f0.jpg",
       "type": "Rum",
       "description": "Um coquetel tropical e doce, perfeito para momentos de descontração.",
       "ingredients": ["Rum", "Suco de abacaxi", "Leite de coco", "Gelo"],
       "instructions": "Em um liquidificador, misture o rum, o suco de abacaxi e o leite de coco com gelo até obter uma consistência cremosa. Sirva em um copo alto e decore com uma fatia de abacaxi e um guarda-chuva."
     },
     {
-      "name": "Dry Martini",
-      "image": "https://i.pinimg.com/564x/23/54/07/235407b03c99a49de7c4c5b11e679e16.jpg",
-      "type": "Gin",
-      "description": "Um coquetel clássico e sofisticado com uma mistura perfeita de gin e vermute.",
-      "ingredients": ["Gin", "Vermute seco", "Twist de limão"],
-      "instructions": "Em um copo misturador com gelo, misture o gin e o vermute seco. Coe em uma taça de martini gelada e adicione um twist de limão."
-    },
-    {
       "name": "Negroni",
-      "image": "https://i.pinimg.com/564x/f0/26/98/f02698e2ce6f14e73d8e19b61f615f6d.jpg",
+      "image": "https://i.pinimg.com/564x/14/11/a4/1411a4b91395b90db99bcce66547a25b.jpg",
       "type": "Gin",
       "description": "Um coquetel equilibrado e amargo, perfeito para os amantes de sabores intensos.",
       "ingredients": ["Gin", "Vermute tinto", "Campari", "Twist de laranja"],
@@ -50,7 +42,7 @@
     },
     {
       "name": "Daiquiri",
-      "image": "https://i.pinimg.com/564x/55/54/01/5554010e76ce09b35b906dc306a3d2d4.jpg",
+      "image": "https://i.pinimg.com/564x/95/95/64/959564fc98ed8bcf250e7446c2707099.jpg",
       "type": "Rum",
       "description": "Um coquetel doce e refrescante de origem cubana.",
       "ingredients": ["Rum", "Suco de limão", "Açúcar", "Gelo"],
@@ -58,7 +50,7 @@
     },
     {
       "name": "Sangria",
-      "image": "https://i.pinimg.com/564x/24/0e/8a/240e8a7ac211951d7d0956e2534de3da.jpg",
+      "image": "https://i.pinimg.com/564x/d5/7f/48/d57f48a2e2fd4b4957360a7ad6a74113.jpg",
       "type": "Vinho",
       "description": "Uma bebida de vinho refrescante e frutada, perfeita para festas e encontros sociais.",
       "ingredients": ["Vinho tinto", "Frutas frescas", "Suco de laranja", "Conhaque", "Refrigerante de limão", "Gelo"],
@@ -66,7 +58,7 @@
     },
     {
       "name": "Tequila Sunrise",
-      "image": "https://i.pinimg.com/564x/0c/97/5d/0c975d22b4706bfbb157f735a45b3893.jpg",
+      "image": "https://i.pinimg.com/564x/04/44/5c/04445cb7fd9cf8e67ff9b0a264af3ae6.jpg",
       "type": "Tequila",
       "description": "Um coquetel vibrante e doce, perfeito para dias ensolarados.",
       "ingredients": ["Tequila", "Suco de laranja", "Grenadine", "Cereja", "Gelo"],
@@ -74,7 +66,7 @@
     },
     {
       "name": "Whiskey Sour",
-      "image": "https://i.pinimg.com/564x/33/2d/13/332d13833bfa3b7cd5a87488e56c8579.jpg",
+      "image": "https://i.pinimg.com/564x/45/a0/be/45a0be7d5619c42aed8c89a6c124a0fb.jpg",
       "type": "Whisky",
       "description": "Um coquetel clássico e amargo, perfeito para os amantes de uísque.",
       "ingredients": ["Whiskey", "Suco de limão", "Açúcar", "Cereja ao marasquino", "Gelo"],
@@ -82,7 +74,7 @@
     },
     {
       "name": "Gim Tônica",
-      "image": "https://i.pinimg.com/564x/9d/b5/66/9db5665c0136b14c19d37df09ee66f50.jpg",
+      "image": "https://i.pinimg.com/564x/38/b9/f5/38b9f5369f6ab721a0a5d7f01c431aab.jpg",
       "type": "Gin",
       "description": "Um coquetel simples e refrescante, ideal para qualquer ocasião.",
       "ingredients": ["Gin", "Água tônica", "Limão", "Gelo"],
@@ -90,7 +82,7 @@
     },
     {
       "name": "Cuba Libre",
-      "image": "https://i.pinimg.com/564x/c5/60/71/c5607154b27c84dab3c5ffae034a7de3.jpg",
+      "image": "https://i.pinimg.com/564x/a8/39/9f/a8399f626f2a539d41e5c540482f6618.jpg",
       "type": "Rum",
       "description": "Um coquetel simples e clássico que combina rum, cola e limão.",
       "ingredients": ["Rum", "Coca-cola", "Limão", "Gelo"],
@@ -98,23 +90,15 @@
     },
     {
       "name": "White Russian",
-      "image": "https://i.pinimg.com/564x/cd/62/00/cd6200efdbd5822c522f7b437de109c3.jpg",
+      "image": "https://i.pinimg.com/564x/36/fe/28/36fe288e3c1d5b4026ff64ff322d03a3.jpg",
       "type": "Vodka",
       "description": "Um coquetel cremoso e delicioso, perfeito como sobremesa.",
       "ingredients": ["Vodka", "Licor de café", "Creme de leite", "Gelo"],
       "instructions": "Em um copo baixo com gelo, adicione a vodka e o licor de café. Complete com creme de leite e mexa suavemente."
     },
     {
-      "name": "Bloody Mary",
-      "image": "https://i.pinimg.com/564x/04/60/75/0460754e04de3e7a8646569c5d24f19e.jpg",
-      "type": "Vodka",
-      "description": "Um coquetel picante e salgado, perfeito como aperitivo ou para curar ressacas.",
-      "ingredients": ["Vodka", "Suco de tomate", "Molho inglês", "Molho de pimenta", "Suco de limão", "Sal e pimenta", "Aipo", "Gelo"],
-      "instructions": "Em um copo alto com gelo, adicione todos os ingredientes líquidos. Tempere com sal e pimenta a gosto. Mexa bem e decore com uma haste de aipo."
-    },
-    {
       "name": "Aperol Spritz",
-      "image": "https://i.pinimg.com/564x/85/3a/c8/853ac855438f8f6d6c57d20c46b59dd5.jpg",
+      "image": "https://i.pinimg.com/564x/f9/81/01/f9810169c02a388311d24e7cee85c12d.jpg",
       "type": "Aperol",
       "description": "Um coquetel leve e refrescante, perfeito para dias quentes de verão.",
       "ingredients": ["Aperol", "Prosecco", "Água com gás", "Rodela de laranja", "Gelo"],
@@ -122,7 +106,7 @@
     },
     {
       "name": "Moscow Mule",
-      "image": "https://i.pinimg.com/564x/04/90/36/04903699eebf31d59d939b2f8d5a73f5.jpg",
+      "image": "https://i.pinimg.com/564x/86/a5/3c/86a53ce2c1cd568147aa36058eaecb54.jpg",
       "type": "Vodka",
       "description": "Um coquetel com um toque de gengibre, servido em uma caneca de cobre gelada.",
       "ingredients": ["Vodka", "Cerveja de gengibre", "Suco de limão", "Gelo", "Rodelas de limão"],
@@ -130,7 +114,7 @@
     },
     {
       "name": "Old Fashioned",
-      "image": "https://www.liquor.com/thmb/dFdkhQ_W6O3GUnO-iRnSVBHZM2Y=/720x720/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__03__07160328__old-fashioned-720x720-recipe-3e1be5b4d36842c5b59c14e83c6f6c13.jpg",
+      "image": "https://i.pinimg.com/564x/d3/b9/b3/d3b9b3214917d326751230924f09f9b1.jpg",
       "type": "Whisky",
       "description": "Um coquetel clássico e sofisticado que realça os sabores complexos do whisky.",
       "ingredients": [
@@ -145,7 +129,7 @@
     },
     {
       "name": "Caipiroska",
-      "image": "https://i.pinimg.com/564x/ba/b6/54/bab654c716bd561c630853b48c93b352.jpg",
+      "image": "https://i.pinimg.com/564x/f7/b6/d4/f7b6d4306e5900c58777667ac221ffc2.jpg",
       "type": "Vodka",
       "description": "Uma bebida refrescante com base de vodka e frutas frescas.",
       "ingredients": [
@@ -158,7 +142,7 @@
     },
     {
       "name": "Cosmopolitan",
-      "image": "https://i.pinimg.com/564x/ea/a9/9a/eaa99aa62b51606f091e26cdec04bdd5.jpg",
+      "image": "https://i.pinimg.com/564x/27/60/29/27602990f16926906f3549c551433c45.jpg",
       "type": "Vodka",
       "description": "Um coquetel clássico feito com vodka, licor de laranja, suco de limão e cranberry.",
       "ingredients": [
