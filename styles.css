@@ -1,13 +1,16 @@
+/* Font import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
+/* Root variables */
 :root {
     --background: #201f2f;
     --txt-1: #ffffff;
     --txt-2: #44404f;
-    --txt-3:#FFD700;
+    --txt-3: #FFD700;
     --background-a10: #ecf0f1; 
 }
 
+/* Body styles */
 body {
     margin: 0;
     padding: 0;
@@ -19,11 +22,13 @@ body {
     color: var(--txt-1);
 }
 
+/* Container styles */
 .container {
     max-width: 500px;
     width: 100%;
 }
 
+/* Navigation styles */
 .nav {
     display: flex;
     flex-direction: row;
@@ -32,40 +37,36 @@ body {
     padding: 15px;
 }
 
+/* Text styles */
 .txt {
     display: flex;
     flex-direction: row;
     width: 100%;
     max-width: 500px;
-    margin:0;
+    margin: 0;
 }
 
-.txt_aling{
+.txt_aling {
     align-items: center;
     justify-content: space-between;
 }
 
-.txt h1 {
-    padding: 0 15px;
-}
-
-.txt h2 {
+.txt h1, .txt h2, .txt p {
     padding: 0 15px;
 }
 
 .txt p {
-    padding: 0 15px;
     font-size: 14px;
     color: var(--txt-3);
 }
 
-.txt_p{
+.txt_p {
     display: flex;
     flex-direction: column;
     width: 100%;
     max-width: 500px;
     margin-bottom: 35px;
-    margin-top:-20px;
+    margin-top: -20px;
 }
 
 .txt_p p {
@@ -73,12 +74,14 @@ body {
     font-size: 12px;
 }
 
+/* Filter styles */
 .filter {
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
 }
 
+/* Options styles */
 .options {
     width: 100%;
     height: 50px;
@@ -104,10 +107,7 @@ body {
     background-color: var(--background); 
 }
 
-.options::-webkit-scrollbar-thumb {
-    background-color: var(--background); 
-}
-
+.options::-webkit-scrollbar-thumb,
 .options::-webkit-scrollbar-track {
     background-color: var(--background); 
 }
@@ -117,6 +117,7 @@ body {
     border-radius: 10px;
 }
 
+/* Navigation bar styles */
 nav {
     display: flex;
     flex-direction: row;
@@ -126,6 +127,7 @@ nav {
     width: 100%;
 }
 
+/* Recipes styles */
 .recipes {
     display: flex;
     flex-direction: column;
@@ -135,6 +137,7 @@ nav {
     margin-bottom: 70px;
 }
 
+/* Recipe styles */
 .recipe {
     border-radius: 10px;
     margin-bottom: 20px;
@@ -161,7 +164,7 @@ nav {
     margin-bottom: 10px;
 }
 
-/* Ícones de Navegação */
+/* Navigation icons container styles */
 .navigation-container {
     position: fixed;
     display: flex;
@@ -172,7 +175,7 @@ nav {
     width: 100%;
 }
 
-/* Ícones de Navegação */
+/* Navigation icons styles */
 .navigation-icons {
     width: 100%;
     max-width: 500px;
@@ -185,33 +188,42 @@ nav {
     background-color: var(--background);
 }
 
-.navigation-icons span{
-color: var(--txt-2);
-font-size: 25px;
+.navigation-icons span {
+    color: var(--txt-2);
+    font-size: 25px;
 }
 
+/* Modal styles */
 .modal {
     position: fixed;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    max-width: 500px; /* Largura máxima */
+    max-width: 500px;
     height: 100%;
-    background-color: var(--background-a10);
+    background-color: var(--background);
     padding: 15px;
-    box-sizing: border-box; /* Garante que as bordas estão dentro da tela */
+    box-sizing: border-box;
     color: var(--txt-1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
-    overflow-y: auto; /* Adiciona barra de rolagem se o conteúdo for muito longo */
-    backdrop-filter: blur(5px); /* Adiciona blur ao fundo fora do modal */
+    overflow-y: auto;
+    backdrop-filter: blur(5px);
 }
-
 
 .modal h2 {
     margin-bottom: 10px;
-    color: var(--txt-2);
+    color: var(--txt-1);
+}
+
+.image-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
 }
 
 .image-container {
@@ -222,7 +234,7 @@ font-size: 25px;
     margin-bottom: 10px;
 }
 
-/* Imagem dentro da div */
+/* Image inside container styles */
 .image-container img {
     width: 100%;
     height: 100%;
@@ -232,13 +244,17 @@ font-size: 25px;
 .modal p {
     margin-bottom: 10px;
     font-size: 14px;
-    color: var(--txt-2);
+    color: var(--txt-1);
+}
+
+.modal ul{
+    font-size: 14px;
 }
 
 .modal button {
     padding: 10px;
     background-color: var(--background);
-    color: var(--txt-1);
+    color: var(--txt-3);
     border: none;
     border-radius: 5px;
     cursor: pointer;

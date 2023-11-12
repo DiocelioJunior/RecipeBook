@@ -76,12 +76,18 @@ document.addEventListener('DOMContentLoaded', function () {
         // Crie o HTML interno do modal com base nos dados da receita
         const html = `
         <h2>${drink.name}</h2>
-        <div class="image-container">
-            <img src="${drink.image}" alt="${drink.name}">
+        <div class="container image-modal">
+            <div class="image-container">
+                <img src="${drink.image}" alt="${drink.name}">
+            </div>
         </div>
-        <p><strong>Descrição:</strong> ${drink.description}</p>
-        <p><strong>Ingredientes:</strong> ${drink.ingredients.join(', ')}</p>
-        <p><strong>Instruções:</strong> ${drink.instructions}</p>
+        <p><strong>Descrição: </strong>${drink.description}</p>
+        <p><strong>Ingredientes:</strong></p>
+        <ul>
+            ${drink.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}
+        </ul>
+        <p><strong>Instruções:</strong></p>
+        <p>${drink.instructions}</p>
         <button onclick="closeModal()">Fechar</button>
     `;
 

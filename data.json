@@ -5,104 +5,180 @@
       "image": "https://i.pinimg.com/564x/ab/89/2c/ab892ccc69fe0df5d3f03bb7b3bc3f2a.jpg",
       "type": "Cachaça",
       "description": "Uma bebida brasileira refrescante e cítrica.",
-      "ingredients": ["Cachaça", "Limão", "Açúcar", "Gelo"],
-      "instructions": "Em um copo, macere o limão com o açúcar. Adicione gelo e a cachaça. Mexa bem e sirva."
+      "ingredients": [
+        "1 Limão",
+        "2 Colheres de chá de Açúcar (ou a gosto)",
+        "60 ml de Cachaça",
+        "Gelo"
+      ],
+      "instructions": "Lave bem o limão e corte as extremidades. Corte o limão em pedaços pequenos ou em fatias, dependendo da sua preferência. Coloque os pedaços de limão em um copo resistente. Adicione o açúcar sobre os pedaços de limão. Se preferir uma caipirinha menos doce, pode ajustar a quantidade de açúcar de acordo com o seu gosto. Com um socador, macere os pedaços de limão e o açúcar no fundo do copo. O objetivo é extrair o suco do limão e misturá-lo com o açúcar. Adicione gelo ao copo. A quantidade de gelo pode variar de acordo com a sua preferência. Despeje a cachaça sobre a mistura de limão e gelo. Mexa bem a mistura para garantir que todos os ingredientes estejam bem incorporados. Sirva imediatamente e aproveite sua caipirinha!"
     },
     {
       "name": "Mojito",
       "image": "https://i.pinimg.com/564x/8e/bc/9b/8ebc9bfa4716d96659654771b4c31cf4.jpg",
       "type": "Rum",
-      "description": "Um coquetel refrescante e aromático de origem cubana.",
-      "ingredients": ["Rum", "Hortelã", "Limão", "Água com gás", "Açúcar", "Gelo"],
-      "instructions": "Em um copo, macere as folhas de hortelã com o açúcar e o suco de limão. Adicione o rum e o gelo. Complete com água com gás e mexa bem. Decore com um ramo de hortelã e uma rodela de limão."
+      "description": "Um coquetel refrescante e cheio de sabor, perfeito para os dias quentes.",
+      "ingredients": [
+        "60 ml de Rum branco",
+        "1 ramo de hortelã fresca",
+        "2 colheres de chá de açúcar",
+        "Suco de 1 limão",
+        "Água com gás",
+        "Gelo"
+      ],
+      "instructions": "Em um copo, adicione as folhas de hortelã e o açúcar. Use um pilão para macerar suavemente as folhas de hortelã, liberando o sabor. Adicione o suco de limão e o rum branco ao copo. Encha o copo com gelo. Complete com água com gás até o topo. Mexa suavemente para misturar os ingredientes. Decore com um ramo de hortelã e uma fatia de limão na borda do copo. Sirva imediatamente e aproveite seu Mojito!"
     },
     {
       "name": "Martini",
       "image": "https://i.pinimg.com/564x/89/6a/74/896a745d813b2b6578069e32b6c6f406.jpg",
       "type": "Gin",
-      "description": "Um coquetel elegante e clássico para os amantes de gin.",
-      "ingredients": ["Gin", "Vermute seco", "Azeitona"],
-      "instructions": "Em um misturador com gelo, misture o gin e o vermute seco. Coe em uma taça de martini gelada e decore com uma azeitona."
+      "description": "Um clássico coquetel à base de gin, conhecido por sua elegância e simplicidade.",
+      "ingredients": [
+        "60 ml de Gin",
+        "15 ml de Vermute seco",
+        "Gelo",
+        "Casca de limão para guarnição"
+      ],
+      "instructions": "Em um misturador com gelo, adicione o gin e o vermute seco. Mexa bem até que o líquido esteja bem gelado. Coe a mistura em uma taça de martini resfriada. Retire a casca de limão sobre o copo para liberar os óleos, depois adicione-a como guarnição."
     },
     {
       "name": "Piña Colada",
       "image": "https://i.pinimg.com/564x/55/df/9c/55df9ca196d1b3ac50849df7fa6ac6f0.jpg",
-      "type": "Rum",
-      "description": "Um coquetel tropical e doce, perfeito para momentos de descontração.",
-      "ingredients": ["Rum", "Suco de abacaxi", "Leite de coco", "Gelo"],
-      "instructions": "Em um liquidificador, misture o rum, o suco de abacaxi e o leite de coco com gelo até obter uma consistência cremosa. Sirva em um copo alto e decore com uma fatia de abacaxi e um guarda-chuva."
+      "type": "Coquetel",
+      "description": "Uma bebida tropical e cremosa, perfeita para os dias quentes.",
+      "ingredients": [
+        "120 ml de Rum branco",
+        "90 ml de Suco de abacaxi",
+        "60 ml de Leite de coco",
+        "30 ml de Creme de leite",
+        "Gelo",
+        "Rodela de abacaxi e cereja para decorar"
+      ],
+      "instructions": "Em um liquidificador, adicione o rum branco, o suco de abacaxi, o leite de coco, o creme de leite e o gelo. Bata até obter uma mistura suave. Despeje a mistura em um copo grande. Decore com uma rodela de abacaxi e uma cereja no topo. Sirva com um canudo e aproveite a sua Piña Colada!"
     },
     {
       "name": "Negroni",
       "image": "https://i.pinimg.com/564x/14/11/a4/1411a4b91395b90db99bcce66547a25b.jpg",
       "type": "Gin",
-      "description": "Um coquetel equilibrado e amargo, perfeito para os amantes de sabores intensos.",
-      "ingredients": ["Gin", "Vermute tinto", "Campari", "Twist de laranja"],
-      "instructions": "Em um copo misturador com gelo, misture o gin, o vermute tinto e o Campari. Mexa bem e coe em um copo baixo com gelo. Decore com um twist de laranja."
+      "description": "Um coquetel clássico e equilibrado, conhecido por sua cor vibrante e sabor distintivo.",
+      "ingredients": [
+        "30 ml de Gin",
+        "30 ml de Vermute tinto",
+        "30 ml de Campari",
+        "Gelo",
+        "Casca de laranja para guarnição"
+      ],
+      "instructions": "Em um copo baixo com gelo, adicione o gin, o vermute tinto e o Campari. Mexa bem para misturar os ingredientes e resfriar a bebida. Decore com uma casca de laranja, torcendo-a sobre o copo para liberar os óleos antes de adicioná-la como guarnição."
     },
     {
       "name": "Daiquiri",
       "image": "https://i.pinimg.com/564x/95/95/64/959564fc98ed8bcf250e7446c2707099.jpg",
       "type": "Rum",
-      "description": "Um coquetel doce e refrescante de origem cubana.",
-      "ingredients": ["Rum", "Suco de limão", "Açúcar", "Gelo"],
-      "instructions": "Em um liquidificador, misture o rum, o suco de limão e o açúcar com gelo até obter uma consistência cremosa. Sirva em uma taça de margarita e decore com uma rodela de limão."
+      "description": "Um coquetel refrescante e cítrico, perfeito para os amantes de rum.",
+      "ingredients": [
+        "60 ml de Rum branco",
+        "30 ml de Suco de limão fresco",
+        "15 ml de Xarope simples",
+        "Gelo"
+      ],
+      "instructions": "Em uma coqueteleira, adicione o rum branco, o suco de limão fresco e o xarope simples. Encha a coqueteleira com gelo. Agite vigorosamente por cerca de 15 segundos. Coe a mistura em uma taça de coquetel resfriada. Decore com uma fatia de limão na borda da taça ou uma rodela no fundo. Sirva e aproveite o seu Daiquiri!"
     },
     {
       "name": "Sangria",
       "image": "https://i.pinimg.com/564x/d5/7f/48/d57f48a2e2fd4b4957360a7ad6a74113.jpg",
       "type": "Vinho",
-      "description": "Uma bebida de vinho refrescante e frutada, perfeita para festas e encontros sociais.",
-      "ingredients": ["Vinho tinto", "Frutas frescas", "Suco de laranja", "Conhaque", "Refrigerante de limão", "Gelo"],
-      "instructions": "Em uma jarra grande, misture o vinho tinto, as frutas frescas, o suco de laranja e o conhaque. Deixe na geladeira por algumas horas. Na hora de servir, adicione o refrigerante de limão e bastante gelo. Sirva em copos altos."
+      "description": "Uma bebida refrescante à base de vinho, frutas e outros ingredientes, ideal para compartilhar em ocasiões sociais.",
+      "ingredients": [
+        "1 garrafa de Vinho tinto",
+        "300 ml de Refrigerante de limão",
+        "60 ml de Licor de laranja",
+        "2 colheres de sopa de Açúcar",
+        "Frutas frescas (laranja, limão, morangos)",
+        "Gelo"
+      ],
+      "instructions": "Em uma jarra grande, misture o vinho tinto, refrigerante de limão, licor de laranja e açúcar. Mexa bem até que o açúcar esteja completamente dissolvido. Adicione as frutas frescas cortadas em pedaços, como laranja, limão e morangos. Leve à geladeira por pelo menos 2 horas para permitir que os sabores se misturem. Sirva a Sangria em copos sobre gelo. Certifique-se de incluir algumas das frutas na bebida. Aproveite sua Sangria em boa companhia!"
     },
     {
       "name": "Tequila Sunrise",
       "image": "https://i.pinimg.com/564x/04/44/5c/04445cb7fd9cf8e67ff9b0a264af3ae6.jpg",
       "type": "Tequila",
-      "description": "Um coquetel vibrante e doce, perfeito para dias ensolarados.",
-      "ingredients": ["Tequila", "Suco de laranja", "Grenadine", "Cereja", "Gelo"],
-      "instructions": "Em um copo alto com gelo, adicione a tequila e o suco de laranja. Mexa bem. Lentamente despeje o grenadine para criar o efeito degradê. Decore com uma cereja."
+      "description": "Um coquetel colorido e tropical, conhecido pela transição de cores semelhante ao nascer do sol.",
+      "ingredients": [
+        "60 ml de Tequila",
+        "120 ml de Suco de laranja",
+        "15 ml de Xarope de grenadine",
+        "Gelo",
+        "Rodela de laranja e cereja para decorar"
+      ],
+      "instructions": "Em um copo alto com gelo, adicione o tequila e o suco de laranja. Mexa bem para misturar. Delicadamente, despeje o xarope de grenadine sobre as costas de uma colher ou colher de bar para criar uma camada no fundo do copo. Deixe o xarope de grenadine assentar por alguns segundos. Não mexa para manter a camada distintiva. Decore com uma rodela de laranja e uma cereja no topo. Sirva com um canudo e aprecie o visual e sabor tropical do Tequila Sunrise!"
     },
     {
-      "name": "Whiskey Sour",
+      "name": "Whisky Sour",
       "image": "https://i.pinimg.com/564x/45/a0/be/45a0be7d5619c42aed8c89a6c124a0fb.jpg",
       "type": "Whisky",
-      "description": "Um coquetel clássico e amargo, perfeito para os amantes de uísque.",
-      "ingredients": ["Whiskey", "Suco de limão", "Açúcar", "Cereja ao marasquino", "Gelo"],
-      "instructions": "Em um copo misturador com gelo, misture o uísque, o suco de limão e o açúcar. Coe em um copo baixo com gelo e decore com uma cereja ao marasquino."
+      "description": "Um clássico coquetel cítrico e equilibrado, perfeito para os amantes de whisky.",
+      "ingredients": [
+        "60 ml de Whisky",
+        "30 ml de Suco de limão fresco",
+        "15 ml de Xarope simples",
+        "Gelo",
+        "Cereja e rodela de laranja para decorar"
+      ],
+      "instructions": "Em uma coqueteleira, adicione o whisky, o suco de limão fresco e o xarope simples. Encha a coqueteleira com gelo. Agite vigorosamente por cerca de 15 segundos. Coe a mistura em um copo baixo sobre gelo. Decore com uma cereja e uma rodela de laranja no topo. Sirva e aprecie o equilíbrio refrescante do Whisky Sour!"
     },
     {
-      "name": "Gim Tônica",
+      "name": "Gin Tônica",
       "image": "https://i.pinimg.com/564x/38/b9/f5/38b9f5369f6ab721a0a5d7f01c431aab.jpg",
       "type": "Gin",
-      "description": "Um coquetel simples e refrescante, ideal para qualquer ocasião.",
-      "ingredients": ["Gin", "Água tônica", "Limão", "Gelo"],
-      "instructions": "Em um copo alto com gelo, adicione o gin. Complete com água tônica e mexa suavemente. Decore com uma fatia de limão."
+      "description": "Um coquetel clássico e refrescante que destaca as notas de ervas do gin.",
+      "ingredients": [
+        "60 ml de Gin",
+        "Água tônica",
+        "Gelo",
+        "Rodela de limão para decorar"
+      ],
+      "instructions": "Em um copo alto, adicione gelo. Despeje o gin sobre o gelo. Complete com água tônica, ajustando a quantidade de acordo com seu gosto pessoal. Mexa suavemente. Decore com uma rodela de limão na borda do copo. Sirva imediatamente e aproveite o frescor e sabor do Gin Tônica!"
+    },
+    {
+      "name": "Gin com Frutas",
+      "image": "https://i.pinimg.com/564x/b2/05/19/b20519bd43c91e87b34e8fb0498a893f.jpg",
+      "type": "Gin",
+      "description": "Uma versão frutada e refrescante do clássico Gin Tônica, realçada com frutas frescas.",
+      "ingredients": [
+        "60 ml de Gin",
+        "Água tônica",
+        "Gelo",
+        "Fatias de morango",
+        "Rodelas de limão",
+        "Ramos de alecrim para decorar"
+      ],
+      "instructions": "Em um copo alto, adicione gelo. Despeje o gin sobre o gelo. Complete com água tônica, ajustando a quantidade de acordo com seu gosto pessoal. Adicione fatias de morango e rodelas de limão ao copo. Mexa suavemente para misturar as frutas. Decore com ramos de alecrim na borda do copo. Sirva imediatamente e aproveite a explosão de sabores deste Gin com Frutas!"
     },
     {
       "name": "Cuba Libre",
       "image": "https://i.pinimg.com/564x/a8/39/9f/a8399f626f2a539d41e5c540482f6618.jpg",
       "type": "Rum",
-      "description": "Um coquetel simples e clássico que combina rum, cola e limão.",
-      "ingredients": ["Rum", "Coca-cola", "Limão", "Gelo"],
-      "instructions": "Em um copo alto com gelo, adicione o rum. Complete com Coca-Cola e uma rodela de limão. Mexa suavemente e sirva."
+      "description": "Um coquetel simples e clássico, que combina rum, cola e limão para uma bebida refrescante.",
+      "ingredients": [
+        "60 ml de Rum",
+        "Cola",
+        "Fatia de limão",
+        "Gelo"
+      ],
+      "instructions": "Em um copo alto, adicione gelo. Despeje o rum sobre o gelo. Complete com cola, ajustando a quantidade de acordo com sua preferência de sabor. Mexa suavemente. Decore com uma fatia de limão na borda do copo. Sirva imediatamente e aproveite o sabor clássico e refrescante da Cuba Libre!"
     },
     {
       "name": "White Russian",
       "image": "https://i.pinimg.com/564x/36/fe/28/36fe288e3c1d5b4026ff64ff322d03a3.jpg",
       "type": "Vodka",
-      "description": "Um coquetel cremoso e delicioso, perfeito como sobremesa.",
-      "ingredients": ["Vodka", "Licor de café", "Creme de leite", "Gelo"],
-      "instructions": "Em um copo baixo com gelo, adicione a vodka e o licor de café. Complete com creme de leite e mexa suavemente."
-    },
-    {
-      "name": "Aperol Spritz",
-      "image": "https://i.pinimg.com/564x/f9/81/01/f9810169c02a388311d24e7cee85c12d.jpg",
-      "type": "Aperol",
-      "description": "Um coquetel leve e refrescante, perfeito para dias quentes de verão.",
-      "ingredients": ["Aperol", "Prosecco", "Água com gás", "Rodela de laranja", "Gelo"],
-      "instructions": "Em um copo alto com gelo, adicione o Aperol e o Prosecco. Complete com água com gás e mexa suavemente. Decore com uma rodela de laranja."
+      "description": "Um coquetel cremoso e delicioso, que combina vodka, licor de café e creme de leite.",
+      "ingredients": [
+        "45 ml de Vodka",
+        "30 ml de Licor de Café",
+        "30 ml de Creme de Leite",
+        "Gelo"
+      ],
+      "instructions": "Em um copo baixo, adicione gelo. Despeje a vodka e o licor de café sobre o gelo. Com cuidado, despeje o creme de leite sobre a mistura, permitindo que ele flutue na parte superior. Não mexa para manter a camada distintiva. Sirva com uma colher longa para que cada gole contenha um pouco de cada camada. Aproveite o sabor suave e cremoso do White Russian!"
     },
     {
       "name": "Moscow Mule",
