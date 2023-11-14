@@ -10,6 +10,11 @@
     --background-a10: #ecf0f1; 
 }
 
+#more{
+    color: var(--txt-3);
+    text-decoration: none;
+}
+
 /* Body styles */
 body {
     margin: 0;
@@ -113,8 +118,8 @@ body {
 }
 
 .selected {
-    border: 2px solid var(--txt-2);
-    border-radius: 10px;
+    color: var(--txt-3);
+    border-bottom: 1px solid var(--txt-3);
 }
 
 /* Navigation bar styles */
@@ -263,4 +268,23 @@ nav {
 .modal button:hover {
     background-color: var(--background-a10);
     color: var(--txt-2);
+}
+
+.info{
+    height: 200px;
+}
+
+.drink-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+} 
+
+.drink-card-content h2{
+    font-size: 18px;
+}
+
+.drink-card-content p{
+    font-size: 14px;
 }

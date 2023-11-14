@@ -4,6 +4,7 @@
       "name": "Caipirinha",
       "image": "https://i.pinimg.com/564x/ab/89/2c/ab892ccc69fe0df5d3f03bb7b3bc3f2a.jpg",
       "type": "Cachaça",
+      "glassIcon":"",
       "description": "Uma bebida brasileira refrescante e cítrica.",
       "ingredients": [
         "1 Limão",
@@ -229,6 +230,34 @@
         "Gelo"
       ],
       "instructions": "Encha uma coqueteleira com gelo. Adicione a vodka, o licor de laranja, o suco de limão e o suco de cranberry. Agite vigorosamente. Coe a mistura em uma taça de martini gelada. Decore com uma casca de limão."
-    }
+    },
+    {
+      "name": "Virgin Mojito",
+      "image": "https://i.pinimg.com/564x/3b/f4/69/3bf4699295da8aca3bbdf9deb8990888.jpg",
+      "type": "Sem-alcool",
+      "description": "Uma versão refrescante e sem álcool do clássico Mojito, com hortelã e limão.",
+      "ingredients": [
+        "8 a 10 folhas de hortelã",
+        "1 limão, cortado em pedaços",
+        "2 colheres de chá de açúcar",
+        "150 ml de água com gás",
+        "Gelo"
+      ],
+      "instructions": "Em um copo, adicione as folhas de hortelã, pedaços de limão e açúcar. Macere suavemente para liberar os sabores. Adicione gelo e complete com água com gás. Mexa bem e decore com uma fatia de limão e folhas de hortelã."
+    },
+    {
+      "name": "Virgin Piña Colada",
+      "image": "https://i.pinimg.com/564x/32/af/f3/32aff3a8724ed8c40769f4618809567b.jpg",
+      "type": "Sem-alcool",
+      "description": "Uma versão sem álcool da clássica Piña Colada, com abacaxi e coco.",
+      "ingredients": [
+        "150 ml de suco de abacaxi",
+        "60 ml de leite de coco",
+        "2 colheres de chá de açúcar",
+        "Gelo",
+        "Rodela de abacaxi para decorar"
+      ],
+      "instructions": "Em um liquidificador, adicione suco de abacaxi, leite de coco, açúcar e gelo. Bata até obter uma mistura suave. Despeje a mistura em um copo. Decore com uma rodela de abacaxi na borda do copo. Sirva com um canudo e aproveite a deliciosa Virgin Piña Colada!"
+    }      
   ]
 }
