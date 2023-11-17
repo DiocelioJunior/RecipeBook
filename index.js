@@ -53,15 +53,24 @@ document.addEventListener('DOMContentLoaded', function () {
         const html = `
         <h2>${drink.name}</h2>
         <div class="container image-modal">
-        <div class="image-container">
-            <img src="${drink.image}" alt="${drink.name}">
+            <div class="image-container">
+                <img src="${drink.image}" alt="${drink.name}">
+            </div>
         </div>
+        <p><strong>Descrição: </strong>${drink.description}</p>
+        <p><strong>Ingredientes:</strong></p>
+        <ul>
+            ${drink.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}
+        </ul>
+        <p><strong>Instruções:</strong></p>
+        <p>${drink.instructions}</p>
+        <!-- Adicione a div para o ícone da taça aqui -->
+        <div class="glass-icon">
+            <!-- Certifique-se de substituir "drink.glassIcon" pela propriedade correta do seu objeto JSON -->
+            <img src="${drink.glassIcon}" alt="Ícone da Taça">
         </div>
-        <p><strong>Descrição: </strong> ${drink.description}</p>
-        <p><strong>Ingredientes: </strong> ${drink.ingredients.join(', ')}</p>
-        <p><strong>Instruções: </strong> ${drink.instructions}</p>
         <button onclick="closeModal()">Fechar</button>
-        `;
+    `;
 
         // Define o HTML interno do modal
         modal.innerHTML = html;

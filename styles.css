@@ -333,3 +333,19 @@ nav {
 .glass {
     color: var(--txt-2);
 }
+
+.index{
+    margin-bottom: 0;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+}
+.intro h1{
+    color: var(--txt-3);
+}
+
+.intro p{
+    margin: 0;
+}

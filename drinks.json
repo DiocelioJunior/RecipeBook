@@ -1,0 +1,29 @@
+{
+    "videoAulas": [
+      {
+        "titulo": "Caipiroska de Frutas Vermelhas",
+        "link": "link_do_video_1"
+      },
+      {
+        "titulo": "Vodka Martini Clássico",
+        "link": "link_do_video_2"
+      },
+      {
+        "titulo": "Gin Tônica Perfeito",
+        "link": "link_do_video_3"
+      },
+      {
+        "titulo": "Negroni: Um Clássico com Gin",
+        "link": "link_do_video_4"
+      },
+      {
+        "titulo": "Old Fashioned: Simples e Saboroso",
+        "link": "link_do_video_5"
+      },
+      {
+        "titulo": "Whisky Sour: Uma Combinação Equilibrada",
+        "link": "link_do_video_6"
+      }
+    ]
+  }
+  
