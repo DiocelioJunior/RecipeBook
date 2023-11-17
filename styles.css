@@ -7,10 +7,10 @@
     --txt-1: #ffffff;
     --txt-2: #44404f;
     --txt-3: #FFD700;
-    --background-a10: #ecf0f1; 
+    --background-a10: #ecf0f1;
 }
 
-#more{
+#more {
     color: var(--txt-3);
     text-decoration: none;
 }
@@ -56,7 +56,9 @@ body {
     justify-content: space-between;
 }
 
-.txt h1, .txt h2, .txt p {
+.txt h1,
+.txt h2,
+.txt p {
     padding: 0 15px;
 }
 
@@ -92,14 +94,14 @@ body {
     height: 50px;
     overflow-x: scroll;
     display: flex;
-    margin-left: 10px; 
+    margin-left: 10px;
     flex-direction: row;
 }
 
 .options .list-container {
     display: inline-block;
     margin-right: 10px;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
 
 .options .list-item {
@@ -108,13 +110,13 @@ body {
 }
 
 .options::-webkit-scrollbar {
-    width: 12px; 
-    background-color: var(--background); 
+    width: 12px;
+    background-color: var(--background);
 }
 
 .options::-webkit-scrollbar-thumb,
 .options::-webkit-scrollbar-track {
-    background-color: var(--background); 
+    background-color: var(--background);
 }
 
 .selected {
@@ -126,7 +128,7 @@ body {
 nav {
     display: flex;
     flex-direction: row;
-    align-items: center; 
+    align-items: center;
     justify-content: space-between;
     max-width: 500px;
     width: 100%;
@@ -222,7 +224,7 @@ nav {
     color: var(--txt-1);
 }
 
-.image-modal{
+.image-modal {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,7 +254,7 @@ nav {
     color: var(--txt-1);
 }
 
-.modal ul{
+.modal ul {
     font-size: 14px;
 }
 
@@ -270,21 +272,64 @@ nav {
     color: var(--txt-2);
 }
 
-.info{
+.info {
     height: 200px;
 }
 
-.drink-card-content{
+.drink-card-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
-} 
+}
 
-.drink-card-content h2{
+.drink-card-content h2 {
     font-size: 18px;
 }
 
-.drink-card-content p{
+.drink-card-content p {
     font-size: 14px;
+}
+
+.recipes a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--txt-1);
+}
+
+.tips_tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.tips_txt {
+    width: 90%;
+    max-width: 500px;
+}
+
+.tools {
+    color: var(--txt-2);
+}
+
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.glass-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.glass {
+    color: var(--txt-2);
 }
