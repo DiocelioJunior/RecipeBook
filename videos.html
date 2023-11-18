@@ -30,8 +30,18 @@
         <h1>Aprenda a fazer drinks incríveis com nossas videoaulas</h1>
     </div>
 
+<!-- Filter Buttons -->
+<div class="container filter-container">
+    <button onclick="resetFilter()">Todos</button>
+    <button onclick="filterVideos('Vodka', this)">Vodka</button>
+    <button onclick="filterVideos('Gin', this)">Gin</button>
+    <button onclick="filterVideos('Whisky', this)">Whisky</button>
+    <!-- Add more buttons for other types as needed -->
+  </div>
+  
+
     <!-- Cards de Videoaulas -->
-    <div class="container">
+    <div class="container video">
         <div class="video-lessons" id="video-lessons">
             <!-- Os cards de videoaulas serão preenchidos dinamicamente aqui -->
         </div>
@@ -62,7 +72,7 @@
     </div>
 
     <!-- Link para Código JavaScript -->
-    <script src="./scripts.js"></script>
+    <script src="./video.js"></script>
 </body>
 
 </html>

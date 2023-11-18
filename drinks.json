@@ -1,29 +1,74 @@
 {
-    "videoAulas": [
-      {
-        "titulo": "Caipiroska de Frutas Vermelhas",
-        "link": "link_do_video_1"
-      },
-      {
-        "titulo": "Vodka Martini Clássico",
-        "link": "link_do_video_2"
-      },
-      {
-        "titulo": "Gin Tônica Perfeito",
-        "link": "link_do_video_3"
-      },
-      {
-        "titulo": "Negroni: Um Clássico com Gin",
-        "link": "link_do_video_4"
-      },
-      {
-        "titulo": "Old Fashioned: Simples e Saboroso",
-        "link": "link_do_video_5"
-      },
-      {
-        "titulo": "Whisky Sour: Uma Combinação Equilibrada",
-        "link": "link_do_video_6"
-      }
-    ]
-  }
-  
+  "videoAulas": [
+    {
+      "titulo": "Gin Tônica Ice Tea",
+      "link": "https://youtu.be/gaBxPXtcXAA",
+      "type": "Gin",
+      "credit": "Source: https://www.youtube.com/@Drinkeiros",
+      "descricao": "Explore o refrescante mundo do Gin Tônica Ice Tea e aprenda a preparar essa deliciosa combinação com um toque único."
+    },
+    {
+      "titulo": "Gin Frenessi",
+      "link": "https://youtu.be/xpwT0EDMzg8",
+      "type": "Gin",
+      "credit": "Source: https://www.youtube.com/@Drinkeiros",
+      "descricao": "Descubra os segredos para fazer o Gin Frenessi, uma variação autêntica e elegante do clássico Vodka Martini."
+    },
+    {
+      "titulo": "Gin Tropical",
+      "link": "https://youtu.be/TCvsO3Oezaw",
+      "type": "Gin",
+      "credit": "Source: https://www.youtube.com/@Drinkeiros",
+      "descricao": "Aprenda a criar o Gin Tropical, explorando combinações ideais de ingredientes que transportam você para um paraíso de sabores."
+    },
+    {
+      "titulo": "Negroni: Um Clássico com Gin",
+      "link": "https://youtu.be/5DctoGYJQM0",
+      "type": "Gin",
+      "credit": "Source: https://www.youtube.com/@Drinkeiros",
+      "descricao": "Mergulhe na história e nos ingredientes que fazem do Negroni um clássico irresistível, destacando a presença marcante do gin."
+    },
+    {
+      "titulo": "Gin Coco",
+      "link": "https://youtu.be/f_cSQNq3-oM",
+      "type": "Gin",
+      "credit": "Source: https://www.youtube.com/@Drinkeiros",
+      "descricao": "Explore uma variação exótica com o Gin Coco, uma combinação única que eleva a experiência do gin a novos patamares de sabor."
+    },
+    {
+      "titulo": "Chevette",
+      "link": "https://youtu.be/PFUcEV2wisQ",
+      "type": "Vodka",
+      "credit": "Source: https://www.youtube.com/@Drinkeiros",
+      "descricao": "Descubra o sabor autêntico do Chevette, uma criação única que destaca a suavidade da vodka em um coquetel surpreendente."
+    },
+    {
+      "titulo": "Caipijarra",
+      "link": "https://youtu.be/VVmjQI0y3tU",
+      "type": "Vodka",
+      "credit": "Source: https://www.youtube.com/@Drinkeiros",
+      "descricao": "Aventure-se na criação da Caipijarra, uma releitura única da clássica caipirinha, com toques especiais que elevam o sabor da vodka."
+    },
+    {
+      "titulo": "3 Caiprinhas Diferenciadas",
+      "link": "https://youtu.be/rWy1TCE70ck",
+      "type": "Vodka",
+      "credit": "Source: https://www.youtube.com/@Drinkeiros",
+      "descricao": "Explore a diversidade de sabores com 3 Caiprinhas Diferenciadas, cada uma oferecendo uma experiência única e refrescante com vodka."
+    },
+    {
+      "titulo": "Caiprinha de Limão",
+      "link": "https://youtu.be/SdG2oBCRigc",
+      "type": "Vodka",
+      "credit": "Source: https://www.youtube.com/@canaldochef",
+      "descricao": "Aprenda a fazer a clássica Caiprinha de Limão com uma abordagem especial do Canal do Chef, explorando a autenticidade da vodka."
+    },
+    {
+      "titulo": "Johnnie Afogado",
+      "link": "https://youtu.be/aYtm66MDANY",
+      "type": "Whisky",
+      "credit": "Source: https://www.youtube.com/@Drinkeiros",
+      "descricao": "Descubra os segredos por trás do Johnnie Afogado, uma criação única que destaca a versatilidade da vodka em um coquetel envolvente."
+    }
+  ]
+}

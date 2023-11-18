@@ -349,3 +349,72 @@ nav {
 .intro p{
     margin: 0;
 }
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 80px;
+}
+
+.video-lessons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+.video-lessons iframe{
+    border-radius: 10px;
+}
+
+.video-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    background-color: var(--background-a10);
+    margin-bottom: 10px;
+}
+
+.video-card h2{
+    font-size: 18px;
+    color: var(--txt-2);
+    margin: 0;
+}
+
+.video-card p{
+    text-align: center;
+    font-size: 14px;
+    color: var(--txt-2);
+    padding: 0 20px;
+}
+
+.filter-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 95%;
+    max-width: 500px;
+    height: 50px;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.filter-container button{
+    height: 60%;
+    width: 80px;
+    border: none;
+    background-color: transparent;
+    color: var(--txt-1);
+}
+
+.filter-container button.active {
+    color: var(--txt-3);
+    border-bottom: 2px solid var(--txt-3); 
+  }
