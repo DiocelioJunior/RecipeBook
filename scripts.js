@@ -88,11 +88,6 @@ document.addEventListener('DOMContentLoaded', function () {
         </ul>
         <p><strong>Instruções:</strong></p>
         <p>${drink.instructions}</p>
-        <!-- Adicione a div para o ícone da taça aqui -->
-        <div class="glass-icon">
-            <!-- Certifique-se de substituir "drink.glassIcon" pela propriedade correta do seu objeto JSON -->
-            <img src="${drink.glassIcon}" alt="Ícone da Taça">
-        </div>
         <button onclick="closeModal()">Fechar</button>
     `;
 
